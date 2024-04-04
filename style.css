@@ -1,0 +1,39 @@
+/* Toggle button */
+#nav-mobile-btn.close span:first-child {
+  transform: rotate(45deg);
+  top: 4px;
+  position: relative;
+  background-image: linear-gradient(to right, #7f6aff 0%, #7f6aff 100%);
+}
+
+#nav-mobile-btn.close span:nth-child(2) {
+  transform: rotate(-45deg);
+  margin-top: 0px;
+  background-image: linear-gradient(to right, #7f6aff 0%, #7f6aff 100%);
+}
+/* swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+header nav a.active {
+    color: #7F6AFF;
+    font-weight: 700;
+}

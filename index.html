@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavithra Caz</title>
+    <link rel="icon" href="images/logo.svg" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Tailwind script start -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    head: ["Raleway", "sans-serif"],
+                    para: ["Montserrat", "sans-serif"],
+                },
+                extend: {
+                    colors: {
+                        primary: "#7F6AFF",
+                        secondary: "#0E111E",
+                        light: "#ffffff",
+                    },
+                    fontFamily: {
+                        'serif': ['Playfair Display', 'serif'],
+                        'sans': ['Montserrat', 'sans-serif'],
+                    },
+                    // boxShadow: {
+                    //     '3xl': '0 10px 20px -10px rgba(197, 31, 103 ,0.2)',
+                    //     '0xl': '0 10px 20px -10px rgba(0, 0, 0 ,0.2)',
+                    //     '4md': '0.8rem 0.8rem 1.4rem rgba(197, 31, 103 ,0.2), -0.2rem -0.2rem 1.8rem rgb(255,255,255)',
+                    // },
+                },
+            },
+        };
+    </script>
+    <!-- Tailwind script end -->
+</head>
+
+<body>
+    <button onclick="topFunction()"
+        class="hidden fixed md:bottom-8 bottom-2 md:right-8 right-2 z-50 bg-light hover:bg-primary hover:text-light text-primary focus:outline-none border-primary border rounded"
+        id="scrollBtn" title="Go to top">
+        <i class="bx bx-chevron-up text-3xl md:block hidden"></i>
+        <i class="bx bx-chevron-up text-3xl md:hidden block"></i>
+    </button>
+    <!-- Header start -->
+    <header class="relative z-50 w-full md:h-20 sm:h-16 h-14 bg-secondary sticky top-0">
+        <div
+            class="container max-w-7xl xl:px-40 lg:px-32 md:px-20 sm:px-10 px-5 items-center flex md:justify-between justify-start mx-auto h-full">
+            <a href="#">
+                <img class="md:h-10 h-8 w-auto" src="images/logo.svg" alt="Pavithra-Caz">
+            </a>
+            <nav id="nav" class="navigation md:relative absolute top-0 left-0 z-50 items-center md:flex flex md:flex-row flex-col justify-between hidden 
+                md:w-auto w-full md:h-24 h-64 md:py-0 pt-10 md:mt-0 mt-16 text-light md:bg-transparent bg-light 
+                md:border-none border-b font-sans">
+                <a href="#home"
+                    class="duration-100 lg:mr-8 md:mr-4 mr-0 transition-color md:text-light text-secondary hover:text-primary md:text-base sm:text-sm text-xs">Home</a>
+                <a href="#about"
+                    class="duration-100 lg:mr-8 md:mr-4 mr-0 transition-color md:text-light text-secondary hover:text-primary md:text-base sm:text-sm text-xs">About</a>
+                <a href="#work"
+                    class="duration-100 transition-color md:text-light text-secondary hover:text-primary md:text-base sm:text-sm text-xs">Works</a>
+                <div class="flex flex-col w-full font-medium border-2 border-primary md:hidden block">
+                    <a href="tel:+91 8590057736" class="relative inline-block w-full px-5 py-3 leading-none text-center bg-primary hover:bg-white text-white 
+                    md:text-light text-secondary hover:text-primary md:text-base sm:text-sm text-xs">
+                        Contact
+                    </a>
+                </div>
+            </nav>
+            <a href="tel:+91 8590057736" class="md:block hidden rounded-full text-white hover:text-primary 
+                hover:bg-white bg-primary px-4 py-2 font-medium md:text-base sm:text-sm text-xs font-sans">
+                Contact
+            </a>
+            <div id="nav-mobile-btn"
+                class="absolute top-0 right-0 z-50 md:hidden block w-6 cursor-pointer select-none md:mt-10 sm:mt-5 mt-3 sm:mr-10 mr-5">
+                <span class="block w-full h-1 mt-2 sm:mt-1 duration-200 transform bg-primary rounded-full"></span>
+                <span class="block w-full h-1 mt-1 duration-200 transform bg-primary rounded-full"></span>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+    <section class="bg-light" id="home">
+        <div
+            class="container max-w-7xl xl:px-40 lg:px-32 md:px-20 sm:px-10 px-5 mx-auto h-full lg:py-24 md:py-16 sm:py-10 py-8">
+            <div class="grid md:grid-cols-2 grid-cols-1 md:justify-items-end justify-items-center md:text-start text-center items-center">
+                <div class="md:text-start text-center">
+                    <h1
+                        class="font-serif xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-bold text-secondary">
+                        <span class="font-sans xl:text-lg lg:text-md md:text-sm sm:text-sm text-xs font-light">UI/UX
+                            DESIGNER & UI DEVELOPER</span><br>
+                        I'M <span class="text-primary">PAVITHRA</span>
+                    </h1>
+                    <p class="md:text-base sm:text-sm text-xs pt-2 pb-4 font-sans md:px-0 sm:px-20 px-8 text-secondary">
+                        A designer who loves coding. Welcome to a world where design and coding coexist together.</p>
+                    <a href="mailto:pavithracaz@gmail.com" target="_blank" class="rounded-full text-light 
+                hover:bg-secondary bg-primary px-4 py-2 font-medium md:text-base sm:text-sm text-xs font-sans">Hire
+                        Me</a>
+                </div>
+                <div class="md:pt-0 pt-6">
+                    <img class="" src="images/caz-1.svg" alt="Caz">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container max-w-7xl xl:px-40 lg:px-32 md:px-20 sm:px-10 px-5 mx-auto h-full">
+            <div class="grid md:grid-cols-3 grid-cols-1 md:gap-10 sm:gap-8 gap-5">
+                <div class="bg-secondary text-center md:p-8 p-6 rounded-3xl md:mx-0 sm:mx-20 mx-10">
+                    <div class="flex justify-center">
+                        <img src="images/tool1.svg" alt="Web Design">
+                    </div>
+                    <h3 class="text-light font-sans font-bold py-2 md:text-xl sm:text-lg text-base">WEB DESIGN</h3>
+                    <p class="text-light font-sans md:text-base sm:text-sm text-xs">Develop high-quality, responsive
+                        websites that attract and engage users.</p>
+                </div>
+                <div class="bg-secondary text-center md:p-8 p-6 rounded-3xl md:mx-0 sm:mx-20 mx-10">
+                    <div class="flex justify-center">
+                        <img src="images/tool2.svg" alt="UI/UX Design">
+                    </div>
+                    <h3 class="text-light font-sans font-bold py-2 md:text-xl sm:text-lg text-base">UI/UX DESIGN</h3>
+                    <p class="text-light font-sans md:text-base sm:text-sm text-xs">Creating visually appealing and
+                        user-friendly designs for the best user experience.</p>
+                </div>
+                <div class="bg-secondary text-center md:p-8 p-6 rounded-3xl md:mx-0 sm:mx-20 mx-10">
+                    <div class="flex justify-center">
+                        <img src="images/tool3.svg" alt="Graphic Design">
+                    </div>
+                    <h3 class="text-light font-sans font-bold py-2 md:text-xl sm:text-lg text-base">GRAPHIC DESIGN</h3>
+                    <p class="text-light font-sans md:text-base sm:text-sm text-xs">Transforming ideas into creating
+                        stunning graphics to bring ideas to life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div
+            class="container max-w-7xl xl:px-40 lg:px-32 md:px-20 sm:px-10 px-5 mx-auto h-full lg:py-24 md:py-16 sm:py-10 py-8">
+            <div
+                class="grid md:grid-cols-2 grid-cols-1 md:justify-items-start justify-items-center md:text-start text-center items-center	">
+                <div>
+                    <img src="images/caz-2.svg" alt="Caz">
+                </div>
+                <div>
+                    <h2 class="pt-2 lg:text-4xl md:text-3xl sm:text-2xl text-xl font-bold font-sans text-secondary">
+                        ABOUT <span class="text-primary">ME</span>
+                    </h2>
+                    <p class="md:text-base sm:text-sm text-xs pt-2 pb-4 font-sans text-secondary">
+                        Hello! I'm a UI designer and UI Developer with 2+ years of industry experience based in Calicut,
+                        Kerala. I specialise in developing visually appealing, user-friendly, and responsive websites
+                        for
+                        both individuals and businesses. </p>
+                    <a href="images/PAVITHRA-V_CV.pdf" download class="rounded-full text-light 
+                hover:bg-secondary bg-primary px-4 py-2 font-medium md:text-base sm:text-sm text-xs font-sans">CV
+                        Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-secondary">
+        <div
+            class="container max-w-7xl xl:px-40 lg:px-32 md:px-20 sm:px-10 px-5 mx-auto h-full lg:py-24 md:py-16 sm:py-10 py-8">
+            <div class="grid md:grid-cols-5 grid-cols-5 md:gap-12 sm:gap-6 gap-3 justify-items-center items-center">
+                <img class="border-2 rounded p-2" src="images/html.svg" alt="">
+                <img class="border-2 rounded p-2" src="images/css.svg" alt="">
+                <img class="border-2 rounded p-2" src="images/js.svg" alt="">
+                <img class="border-2 rounded p-2" src="images/jquery.svg" alt="">
+                <img class="border-2 rounded p-2" src="images/bootstrap.svg" alt="">
+                <img class="border-2 rounded p-2" src="images/tailwind.svg" alt="">
+                <img class="border-2 rounded p-2" src="images/figma.svg" alt="">
+                <img class="border-2 rounded p-2" src="images/ai.svg" alt="">
+                <img class="border-2 rounded p-2" src="images/ps.svg" alt="">
+                <img class="border-2 rounded p-2" src="images/wordpress.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <div
+            class="container max-w-7xl xl:px-40 lg:px-32 md:px-20 sm:px-10 px-5 mx-auto h-full lg:py-24 md:py-16 sm:py-10 py-8">
+            <div class="text-center mx-auto">
+                <h2 class="pb-10 lg:text-4xl md:text-3xl sm:text-2xl text-xl font-bold font-sans text-secondary">
+                    MY <span class="text-primary">WORKS</span>
+                </h2>
+                <div class="grid grid-cols-1 gap-8 md:gap-10 md:grid-cols-2">
+                    <a href="https://sravanahearingaidcentre.com"
+                        class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                        <img src="images/Sravana.jpg" class="w-full shadow" alt="sravana" />
+                    </a>
+                    <a href="https://globalbrandings.com"
+                        class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                        <img src="images/Global.jpg" class="w-full shadow" alt="globalbrandings" />
+                    </a>
+                    <a href="https://cakiyo.com" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                        <img src="images/Cakiyo.jpg" class="w-full shadow" alt="cakiyo" />
+                    </a>
+                    <a href="https://pixbitsolutions.com/"
+                        class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                        <img src="images/Pixbit.jpg" class="w-full shadow" alt="pixbitsolutions" />
+                    </a>
+                    <a href="https://zyonz.ae" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                        <img src="images/zyonz.png" class="w-full shadow" alt="zyonz" />
+                    </a>
+                    <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                        <img src="images/Kilban.jpg" class="w-full shadow" alt="Kilban" />
+                    </a>
+                    <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                        <img src="images/pet.jpg" class="w-full shadow" alt="pet" />
+                    </a>
+                    <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                        <img src="images/safe.jpg" class="w-full shadow" alt="safe" />
+                    </a>
+                </div>
+            </div>
+    </section>
+    <section id="works" class="bg-secondary">
+        <div
+            class="container max-w-7xl xl:px-40 lg:px-32 md:px-20 sm:px-10 px-5 mx-auto h-full lg:pt-24 md:pt-16 sm:pt-10 pt-8">
+            <div
+                class="grid md:grid-cols-2 grid-cols-1 md:justify-items-end justify-items-center md:text-start text-center items-center	">
+                <div>
+                    <h2 class="pt-2 text-light lg:text-4xl md:text-3xl sm:text-2xl text-xl font-bold font-sans">
+                        LET'S <span class="text-primary">CONNECT</span>
+                    </h2>
+                    <p class="text-light md:text-base sm:text-sm text-xs pt-2 pb-4 font-sans">
+                        I'm always looking to make new connections.
+                        Send me an email at pavithracaz@gmail.com
+                        or reach out on social media.</p>
+                        <div class="flex md:justify-start justify-center pb-4">
+                            <a href="https://www.instagram.com/pavithracaz" target="_blank">
+                                <i
+                                    class="flex items-center bx bxl-instagram text-2xl text-light hover:text-primary"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/pavithracaz" target="_blank" class="pl-4">
+                                <i
+                                    class="flex items-center bx bxl-linkedin text-2xl text-light hover:text-primary"></i>
+                            </a>
+                            <a href="https://github.com/PavithraCaz" target="_blank" class="pl-4">
+                                <i
+                                    class="flex items-center bx bxl-github text-2xl text-light hover:text-primary"></i>
+                            </a>
+                            <a href="https://www.behance.net/pavithracaz" target="_blank" class="pl-4">
+                                <i
+                                    class="flex items-center bx bxl-behance text-2xl text-light hover:text-primary"></i>
+                            </a>
+                        </div>
+                </div>
+                <div class="text-right">
+                    <img src="images/caz-3.svg" alt="Caz">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div
+            class="container max-w-7xl xl:px-40 lg:px-32 md:px-20 sm:px-10 px-5 mx-auto h-full md:py-2 py-1 text-center">
+        <div>&copy; Copyright 2024. All right reserved, by <a class="hover:text-primary" href="/">Pavithra Caz</a> </div>
+    </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
